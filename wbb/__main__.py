@@ -114,7 +114,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://github.com/thesilentdevka/WilliamButcherBot",
             ),
         ],
         [
@@ -123,7 +123,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="http://t.me/thesilentninja"
             ),
         ],
         [
@@ -138,7 +138,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 home_text_pm = (
     f"Hey there! My name is {BOT_NAME}. I can manage your "
     + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    + "add me to your group. I WAS MADE BY @thesilentninja "
 )
 
 
@@ -154,7 +154,7 @@ async def help_command(_, message):
                     ),
                     InlineKeyboardButton(
                         text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        url="https://github.com/thesilentdevka/WilliamButcherBot",
                     ),
                 ],
                 [
@@ -163,7 +163,7 @@ async def help_command(_, message):
                         callback_data="stats_callback",
                     ),
                     InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Support 👨", url="t.me/thesilentninja"
                     ),
                 ],
             ]
